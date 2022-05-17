@@ -1,0 +1,33 @@
+#counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50vh;
+    border: 3px solid;
+    width: 30%;
+    height: 4.4rem;
+    margin: 0 auto;
+    background-color: plum;
+    box-sizing: border-box;
+}
+
+i {
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    transition: 300ms;
+}
+
+i:hover {
+    cursor: pointer;
+    color: aliceblue;
+    background-color: darkblue;
+    border: 4px solid darkblue;
+}
+
+span {
+    position: fixed;
+    color: darkslategray;
+    font-size: 1.4rem;
+}
